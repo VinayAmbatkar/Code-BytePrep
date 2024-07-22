@@ -1,9 +1,17 @@
 body {
-  background: linear-gradient(to left, #d098e9, #FFFFFF);;
+  background: linear-gradient(to right, #d098e9, #FFFFFF);;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+input{
+  width: 20%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
