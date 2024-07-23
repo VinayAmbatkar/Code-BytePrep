@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   background: linear-gradient(to right, #d098e9, #FFFFFF);;
   font-family: 'Roboto', sans-serif;
@@ -9,9 +13,33 @@ body {
 }
 
 input{
-  width: 20%;
+  width: 70%;
   padding: 10px;
   margin: 10px 0;
   border-radius: 5px;
   border: 1px solid #ccc;
+  padding: 10px 10px;
+  border-radius: 4opx;
+}
+
+.nva-right{
+  right: 1%;
+  position: relative;
+ display: inline;
+ font-weight: 800;
+
+
+}
+
+.container{
+ max-width: 1000px;
+ margin: 0 auto;
+}
+
+.sidehero {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: auto;
 }
