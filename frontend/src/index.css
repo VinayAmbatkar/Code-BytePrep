@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background: linear-gradient(to right, #d098e9, #FFFFFF);;
+  background: linear-gradient(to right, #aca8c8, #FFFFFF);
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
@@ -42,4 +42,47 @@ input{
   top: 0;
   height: 100vh;
   width: auto;
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 350px;
+  margin-top: auto;
+  position: relative;
+  justify-content: flex-start;
+
+}
+.container2 {
+  max-width: 45%;
+  
+}
+.container2 h2{
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.container2 p{
+  color: rgb(53, 52, 52);
+}
+.container2 span{
+  color: #bc54ec;
+}
+.container2 span1{
+  color: rgb(76, 76, 233);
+}
+.container2 button{
+  color: white;
+  border: 3px solid #bc54ec;
+  background-color: #bc54ec;
+  margin: 5px 2px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 7px;
+  border: none;
+}
+.container2 button:hover{
+  border: #ccc;
 }
