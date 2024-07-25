@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background: linear-gradient(to right, #aca8c8, #FFFFFF);
+  background: linear-gradient(to bottom right, #e0e7ff, #d1b4df);
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
@@ -42,20 +42,25 @@ input{
   top: 0;
   height: 100vh;
   width: auto;
+  margin-left: 20px;
+  
 }
+
+
 main{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 350px;
-  margin-top: auto;
   position: relative;
   justify-content: flex-start;
+  height: 70vh;
+  margin-right: 40px;
 
 }
 .container2 {
   max-width: 45%;
-  
+
 }
 .container2 h2{
   color: white;

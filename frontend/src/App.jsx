@@ -9,7 +9,7 @@ function App() {
   return (
     <>
 <div className="container">
-<div className="flex items-center p-4 ">
+<div className="flex items-center p-4 cd">
       <img src={logo} alt="logo" className="h-10 w-auto mr-6" />
       <div className="flex-grow">
         <div className="relative">
@@ -35,7 +35,7 @@ function App() {
    <main>
    <div className='container2'>
       <h2><span1>A</span1> New Way <span>to Learn</span></h2>
-      <p>Develop Early Skills in Logic,Problem Solving , <br></br>and Reading Comprehensiton</p>
+      <p>Develop Early Skills in Logic,Problem Solving , <br></br>and Reading Comprehensiton</p> <br></br>
       <button type="button">Create Account</button>
    </div>
   </main>     
