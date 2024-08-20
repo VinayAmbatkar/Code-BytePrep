@@ -34,7 +34,7 @@ function App() {
 
    <main>
    <div className='container2'>
-      <h2><span1>A</span1> New Way <span>to Learn</span></h2>
+      <h2><span1>A</span1>New Way<span>to Learn</span></h2>
       <p>Develop Early Skills in Logic,Problem Solving , <br></br>and Reading Comprehensiton</p> <br></br>
       <button type="button">Create Account</button>
    </div>
